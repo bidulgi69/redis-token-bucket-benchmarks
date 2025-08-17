@@ -22,12 +22,12 @@ This benchmark suite measures performance characteristic(latency percentiles) ac
 ## 📊 Metrics
 ### Latency (μs)
 <div style="display: flex; justify-content: space-between;">
-    <img width=590 src="https://i.ibb.co/b8wRJ3C/benchmark-comparison-client-2.png" alt="benchmark-comparison-client-2"/>
-    <img width=590 src="https://i.ibb.co/JwbXNXMr/benchmark-comparison-client-4.png" alt="benchmark-comparison-client-4"/>
+    <img width=590 src="https://i.ibb.co/Y4g94bGR/benchmark-comparison-client-2.png" alt="benchmark-comparison-client-2"/>
+    <img width=590 src="https://i.ibb.co/KY13NfT/benchmark-comparison-client-4.png" alt="benchmark-comparison-client-4"/>
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img width=590 src="https://i.ibb.co/WvRc9511/benchmark-comparison-client-1.png" alt="benchmark-comparison-client-1"/>
-    <img width=590 src="https://i.ibb.co/fjqN7nt/benchmark-comparison-client-3.png" alt="benchmark-comparison-client-3"/>
+    <img width=590 src="https://i.ibb.co/w1n0x1m/benchmark-comparison-client-1.png" alt="benchmark-comparison-client-1"/>
+    <img width=590 src="https://i.ibb.co/wr3cQQ5G/benchmark-comparison-client-3.png" alt="benchmark-comparison-client-3"/>
 </div>
 
 <hr />

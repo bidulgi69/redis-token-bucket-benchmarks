@@ -21,27 +21,9 @@ This benchmark suite measures performance characteristic(latency percentiles) ac
 
 ## 📊 Metrics
 ### Latency (μs)
-<div style="display: flex; justify-content: space-between;">
-    <img width=590 src="https://i.ibb.co/Y4g94bGR/benchmark-comparison-client-2.png" alt="benchmark-comparison-client-2"/>
-    <img width=590 src="https://i.ibb.co/KY13NfT/benchmark-comparison-client-4.png" alt="benchmark-comparison-client-4"/>
-</div>
-<div style="display: flex; justify-content: space-between;">
-    <img width=590 src="https://i.ibb.co/w1n0x1m/benchmark-comparison-client-1.png" alt="benchmark-comparison-client-1"/>
-    <img width=590 src="https://i.ibb.co/wr3cQQ5G/benchmark-comparison-client-3.png" alt="benchmark-comparison-client-3"/>
-</div>
+<img src="assets/benchmark-latencies.png" alt="benchmark-latencies"/>
 
 <hr />
 
 ### Latency Comparison
-<div style="display: flex; justify-content: space-between;">
-    <img width=480 src="https://i.ibb.co/n8f7h9q9/benchmarks-2.png" alt="benchmarks-2">
-    <img width=480 src="https://i.ibb.co/8nTdNzwq/benchmarks-1.png" alt="benchmarks-1">
-</div>
-<div style="display: flex; justify-content: space-between;">
-    <img width=480 src="https://i.ibb.co/XZq65dP9/benchmarks-4.png" alt="benchmarks-4">
-    <img width=480 src="https://i.ibb.co/rRpKQCSS/benchmarks-3.png" alt="benchmarks-3">
-</div>
-<div style="display: flex; justify-content: space-between;">
-    <img width=480 src="https://i.ibb.co/gb73GfsH/benchmarks-6.png" alt="benchmarks-6">
-    <img width=480 src="https://i.ibb.co/Q7rqLs74/benchmarks-5.png" alt="benchmarks-5">
-</div>
+<img src="assets/benchmark-latency-comparison.png" alt="benchmark-latency-comparison"/>

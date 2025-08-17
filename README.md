@@ -1,6 +1,6 @@
 # Redis Token Bucket Benchmarks
 This repository contains benchmark tests comparing different approaches to implement token bucket rate limiting using Redis.
-We evaluate Bucket4j, Lua script execution, and several Redis client libraries (Jedis, Lettuce, Redisson) under controlled conditions using JMH.
+Evaluate Bucket4j, Lua script execution, and several Redis client libraries (Jedis, Lettuce, Redisson) under controlled conditions using JMH.
 
 ## 🔍 Overview
 This benchmark suite measures performance characteristic(latency percentiles) across different client libraries and implementations:

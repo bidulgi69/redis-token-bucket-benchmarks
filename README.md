@@ -21,7 +21,7 @@ This benchmark suite measures performance characteristic(latency percentiles) ac
 
 ## 📊 Metrics
 ### Latency (μs)
-<img src="assets/benchmark-latencies.png" alt="benchmark-latencies"/>
+<img src="assets/benchmark-latency.png" alt="benchmark-latencies"/>
 
 <hr />
 

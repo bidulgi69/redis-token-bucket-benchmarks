@@ -1,0 +1,109 @@
+Benchmark                                        (capacity)  (refillMs)  (refillTokens)     (scenario)    Mode      Cnt       Score     Error  Units
+JedisBenchmarks.bucket4j_consume                       5000        1000            5000      contended  sample    98190   26063.377 ± 288.195  us/op
+JedisBenchmarks.bucket4j_consume:p0.00                 5000        1000            5000      contended  sample             1705.984            us/op
+JedisBenchmarks.bucket4j_consume:p0.50                 5000        1000            5000      contended  sample            17006.592            us/op
+JedisBenchmarks.bucket4j_consume:p0.90                 5000        1000            5000      contended  sample            61079.552            us/op
+JedisBenchmarks.bucket4j_consume:p0.95                 5000        1000            5000      contended  sample            80871.424            us/op
+JedisBenchmarks.bucket4j_consume:p0.99                 5000        1000            5000      contended  sample           128188.416            us/op
+JedisBenchmarks.bucket4j_consume:p0.999                5000        1000            5000      contended  sample           196820.074            us/op
+JedisBenchmarks.bucket4j_consume:p0.9999               5000        1000            5000      contended  sample           258376.493            us/op
+JedisBenchmarks.bucket4j_consume:p1.00                 5000        1000            5000      contended  sample           342884.352            us/op
+JedisBenchmarks.bucket4j_consume                       5000        1000            5000  non-contended  sample   769743    3323.314 ±   3.582  us/op
+JedisBenchmarks.bucket4j_consume:p0.00                 5000        1000            5000  non-contended  sample             1683.456            us/op
+JedisBenchmarks.bucket4j_consume:p0.50                 5000        1000            5000  non-contended  sample             3203.072            us/op
+JedisBenchmarks.bucket4j_consume:p0.90                 5000        1000            5000  non-contended  sample             4079.616            us/op
+JedisBenchmarks.bucket4j_consume:p0.95                 5000        1000            5000  non-contended  sample             4440.064            us/op
+JedisBenchmarks.bucket4j_consume:p0.99                 5000        1000            5000  non-contended  sample             6160.384            us/op
+JedisBenchmarks.bucket4j_consume:p0.999                5000        1000            5000  non-contended  sample            12275.810            us/op
+JedisBenchmarks.bucket4j_consume:p0.9999               5000        1000            5000  non-contended  sample            31550.498            us/op
+JedisBenchmarks.bucket4j_consume:p1.00                 5000        1000            5000  non-contended  sample            58785.792            us/op
+JedisBenchmarks.lua_consume                            5000        1000            5000      contended  sample  1674792    1527.386 ±   1.282  us/op
+JedisBenchmarks.lua_consume:p0.00                      5000        1000            5000      contended  sample              617.472            us/op
+JedisBenchmarks.lua_consume:p0.50                      5000        1000            5000      contended  sample             1480.704            us/op
+JedisBenchmarks.lua_consume:p0.90                      5000        1000            5000      contended  sample             1912.832            us/op
+JedisBenchmarks.lua_consume:p0.95                      5000        1000            5000      contended  sample             2084.864            us/op
+JedisBenchmarks.lua_consume:p0.99                      5000        1000            5000      contended  sample             2658.304            us/op
+JedisBenchmarks.lua_consume:p0.999                     5000        1000            5000      contended  sample             6260.384            us/op
+JedisBenchmarks.lua_consume:p0.9999                    5000        1000            5000      contended  sample            17238.681            us/op
+JedisBenchmarks.lua_consume:p1.00                      5000        1000            5000      contended  sample            45809.664            us/op
+JedisBenchmarks.lua_consume                            5000        1000            5000  non-contended  sample  1624729    1574.475 ±   1.476  us/op
+JedisBenchmarks.lua_consume:p0.00                      5000        1000            5000  non-contended  sample              611.328            us/op
+JedisBenchmarks.lua_consume:p0.50                      5000        1000            5000  non-contended  sample             1511.424            us/op
+JedisBenchmarks.lua_consume:p0.90                      5000        1000            5000  non-contended  sample             1990.656            us/op
+JedisBenchmarks.lua_consume:p0.95                      5000        1000            5000  non-contended  sample             2203.648            us/op
+JedisBenchmarks.lua_consume:p0.99                      5000        1000            5000  non-contended  sample             3059.712            us/op
+JedisBenchmarks.lua_consume:p0.999                     5000        1000            5000  non-contended  sample             7497.892            us/op
+JedisBenchmarks.lua_consume:p0.9999                    5000        1000            5000  non-contended  sample            20678.377            us/op
+JedisBenchmarks.lua_consume:p1.00                      5000        1000            5000  non-contended  sample            35782.656            us/op
+LettuceBenchmarks.bucket4j_consume                     5000        1000            5000      contended  sample   303588    8426.238 ±  52.139  us/op
+LettuceBenchmarks.bucket4j_consume:p0.00               5000        1000            5000      contended  sample              509.440            us/op
+LettuceBenchmarks.bucket4j_consume:p0.50               5000        1000            5000      contended  sample             5562.368            us/op
+LettuceBenchmarks.bucket4j_consume:p0.90               5000        1000            5000      contended  sample            17858.560            us/op
+LettuceBenchmarks.bucket4j_consume:p0.95               5000        1000            5000      contended  sample            24248.320            us/op
+LettuceBenchmarks.bucket4j_consume:p0.99               5000        1000            5000      contended  sample            41156.608            us/op
+LettuceBenchmarks.bucket4j_consume:p0.999              5000        1000            5000      contended  sample            81973.871            us/op
+LettuceBenchmarks.bucket4j_consume:p0.9999             5000        1000            5000      contended  sample           166777.455            us/op
+LettuceBenchmarks.bucket4j_consume:p1.00               5000        1000            5000      contended  sample           370147.328            us/op
+LettuceBenchmarks.bucket4j_consume                     5000        1000            5000  non-contended  sample  2153044    1188.184 ±   1.263  us/op
+LettuceBenchmarks.bucket4j_consume:p0.00               5000        1000            5000  non-contended  sample              472.576            us/op
+LettuceBenchmarks.bucket4j_consume:p0.50               5000        1000            5000  non-contended  sample             1083.392            us/op
+LettuceBenchmarks.bucket4j_consume:p0.90               5000        1000            5000  non-contended  sample             1509.376            us/op
+LettuceBenchmarks.bucket4j_consume:p0.95               5000        1000            5000  non-contended  sample             1757.184            us/op
+LettuceBenchmarks.bucket4j_consume:p0.99               5000        1000            5000  non-contended  sample             3358.720            us/op
+LettuceBenchmarks.bucket4j_consume:p0.999              5000        1000            5000  non-contended  sample             7069.696            us/op
+LettuceBenchmarks.bucket4j_consume:p0.9999             5000        1000            5000  non-contended  sample            15286.272            us/op
+LettuceBenchmarks.bucket4j_consume:p1.00               5000        1000            5000  non-contended  sample            32243.712            us/op
+LettuceBenchmarks.lua_consume                          5000        1000            5000      contended  sample  3585247     713.288 ±   0.656  us/op
+LettuceBenchmarks.lua_consume:p0.00                    5000        1000            5000      contended  sample              171.264            us/op
+LettuceBenchmarks.lua_consume:p0.50                    5000        1000            5000      contended  sample              674.816            us/op
+LettuceBenchmarks.lua_consume:p0.90                    5000        1000            5000      contended  sample              958.464            us/op
+LettuceBenchmarks.lua_consume:p0.95                    5000        1000            5000      contended  sample             1087.488            us/op
+LettuceBenchmarks.lua_consume:p0.99                    5000        1000            5000      contended  sample             1619.968            us/op
+LettuceBenchmarks.lua_consume:p0.999                   5000        1000            5000      contended  sample             4190.208            us/op
+LettuceBenchmarks.lua_consume:p0.9999                  5000        1000            5000      contended  sample            10772.074            us/op
+LettuceBenchmarks.lua_consume:p1.00                    5000        1000            5000      contended  sample            57016.320            us/op
+LettuceBenchmarks.lua_consume                          5000        1000            5000  non-contended  sample  3683644     694.240 ±   0.545  us/op
+LettuceBenchmarks.lua_consume:p0.00                    5000        1000            5000  non-contended  sample              173.568            us/op
+LettuceBenchmarks.lua_consume:p0.50                    5000        1000            5000  non-contended  sample              664.576            us/op
+LettuceBenchmarks.lua_consume:p0.90                    5000        1000            5000  non-contended  sample              922.624            us/op
+LettuceBenchmarks.lua_consume:p0.95                    5000        1000            5000  non-contended  sample             1032.192            us/op
+LettuceBenchmarks.lua_consume:p0.99                    5000        1000            5000  non-contended  sample             1454.080            us/op
+LettuceBenchmarks.lua_consume:p0.999                   5000        1000            5000  non-contended  sample             3937.710            us/op
+LettuceBenchmarks.lua_consume:p0.9999                  5000        1000            5000  non-contended  sample             9338.880            us/op
+LettuceBenchmarks.lua_consume:p1.00                    5000        1000            5000  non-contended  sample            37355.520            us/op
+RedissonBenchmarks.bucket4j_consume                    5000        1000            5000      contended  sample   212404   12047.749 ±  91.323  us/op
+RedissonBenchmarks.bucket4j_consume:p0.00              5000        1000            5000      contended  sample              369.664            us/op
+RedissonBenchmarks.bucket4j_consume:p0.50              5000        1000            5000      contended  sample             7888.896            us/op
+RedissonBenchmarks.bucket4j_consume:p0.90              5000        1000            5000      contended  sample            28246.016            us/op
+RedissonBenchmarks.bucket4j_consume:p0.95              5000        1000            5000      contended  sample            37289.984            us/op
+RedissonBenchmarks.bucket4j_consume:p0.99              5000        1000            5000      contended  sample            58720.256            us/op
+RedissonBenchmarks.bucket4j_consume:p0.999             5000        1000            5000      contended  sample            95629.476            us/op
+RedissonBenchmarks.bucket4j_consume:p0.9999            5000        1000            5000      contended  sample           145951.162            us/op
+RedissonBenchmarks.bucket4j_consume:p1.00              5000        1000            5000      contended  sample           270008.320            us/op
+RedissonBenchmarks.bucket4j_consume                    5000        1000            5000  non-contended  sample  1561422    1638.249 ±   1.864  us/op
+RedissonBenchmarks.bucket4j_consume:p0.00              5000        1000            5000  non-contended  sample              510.464            us/op
+RedissonBenchmarks.bucket4j_consume:p0.50              5000        1000            5000  non-contended  sample             1546.240            us/op
+RedissonBenchmarks.bucket4j_consume:p0.90              5000        1000            5000  non-contended  sample             2101.248            us/op
+RedissonBenchmarks.bucket4j_consume:p0.95              5000        1000            5000  non-contended  sample             2531.328            us/op
+RedissonBenchmarks.bucket4j_consume:p0.99              5000        1000            5000  non-contended  sample             4300.800            us/op
+RedissonBenchmarks.bucket4j_consume:p0.999             5000        1000            5000  non-contended  sample             7471.104            us/op
+RedissonBenchmarks.bucket4j_consume:p0.9999            5000        1000            5000  non-contended  sample            18481.152            us/op
+RedissonBenchmarks.bucket4j_consume:p1.00              5000        1000            5000  non-contended  sample            50593.792            us/op
+RedissonBenchmarks.redisson_lua_consume                5000        1000            5000      contended  sample  3539787     722.548 ±   0.724  us/op
+RedissonBenchmarks.redisson_lua_consume:p0.00          5000        1000            5000      contended  sample              147.968            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.50          5000        1000            5000      contended  sample              684.032            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.90          5000        1000            5000      contended  sample              930.816            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.95          5000        1000            5000      contended  sample             1054.720            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.99          5000        1000            5000      contended  sample             1832.960            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.999         5000        1000            5000      contended  sample             4849.664            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.9999        5000        1000            5000      contended  sample            11026.779            us/op
+RedissonBenchmarks.redisson_lua_consume:p1.00          5000        1000            5000      contended  sample            69468.160            us/op
+RedissonBenchmarks.redisson_lua_consume                5000        1000            5000  non-contended  sample  3601740     710.116 ±   0.692  us/op
+RedissonBenchmarks.redisson_lua_consume:p0.00          5000        1000            5000  non-contended  sample              174.336            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.50          5000        1000            5000  non-contended  sample              676.864            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.90          5000        1000            5000  non-contended  sample              915.456            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.95          5000        1000            5000  non-contended  sample             1028.096            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.99          5000        1000            5000  non-contended  sample             1689.600            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.999         5000        1000            5000  non-contended  sample             4554.752            us/op
+RedissonBenchmarks.redisson_lua_consume:p0.9999        5000        1000            5000  non-contended  sample            10567.680            us/op
+RedissonBenchmarks.redisson_lua_consume:p1.00          5000        1000            5000  non-contended  sample            79429.632            us/op

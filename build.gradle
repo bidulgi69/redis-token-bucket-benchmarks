@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'me.champeau.jmh' version '0.7.3'
+}
+
+group = 'bidulgi69'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+ext {
+    jmhVersion = "1.37"
+    bucket4jVersion = "8.14.0"
+}
+
+dependencies {
+    // clients
+    jmh 'redis.clients:jedis:6.1.0'
+    jmh 'io.lettuce:lettuce-core:6.8.0.RELEASE'
+    jmh 'org.redisson:redisson:3.21.0'
+    jmh 'org.apache.commons:commons-pool2:2.12.1'
+
+    jmh "com.bucket4j:bucket4j_jdk17-core:${project.bucket4jVersion}"
+    jmh "com.bucket4j:bucket4j_jdk17-jedis:${project.bucket4jVersion}"
+    jmh "com.bucket4j:bucket4j_jdk17-lettuce:${project.bucket4jVersion}"
+    jmh "com.bucket4j:bucket4j_jdk17-redisson:${project.bucket4jVersion}"
+    jmh 'org.slf4j:slf4j-simple:2.1.0-alpha1'
+    jmh "org.openjdk.jmh:jmh-core:${project.jmhVersion}"
+    jmhAnnotationProcessor "org.openjdk.jmh:jmh-generator-annprocess:${project.jmhVersion}"
+    jmhRuntimeOnly 'io.netty:netty-resolver-dns-native-macos:4.1.104.Final:osx-aarch_64'
+}
+
+jar {
+    enabled = false
+}
+
+jmh {
+    includes = ['.*Benchmarks.*']
+    jvmArgs = ['-Xmx2048m']
+
+    //resultFormat = 'CSV'
+}
